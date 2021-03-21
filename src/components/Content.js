@@ -6,7 +6,7 @@ const Content = () => {
     return (
         <>
             <div className='menu-card'>
-                <img src={imageOne} alt='ball and boot' className='h-full rounded mb-20 shadow w-1/3'/>
+                <img src={imageOne} alt='ball and boot' className='h-full rounded mb-20 shadow w-4/5 md:w-1/3 '/>
                 <div className="center-content">
                         <h2 className="text-2xl mb-2">Mercurial Boot and Ball</h2>
                         <p className="mb-2">Comfortable and well designed mercurial boots</p>
@@ -15,7 +15,7 @@ const Content = () => {
             </div>
 
             <div className='menu-card'>
-                <img src={imageTwo} alt='ball and boot' className='h-full rounded mb-20 shadow w-1/3'/>
+                <img src={imageTwo} alt='ball and boot' className='h-full rounded mb-20 shadow w-4/5 md:w-1/3'/>
                 <div className="center-content">
                         <h2 className="text-2xl mb-2">Mercurial Boot</h2>
                         <p className="mb-2">Comfortable and well designed mercurial boots</p>
